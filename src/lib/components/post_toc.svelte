@@ -56,6 +56,7 @@
       {#each toc as { depth, title, slug }}
         <li id={`toc-item-${slug}`} class="flex flex-col">
           <!-- svelte-ignore a11y-click-events-have-key-events -->
+          <!-- svelte-ignore a11y-no-static-element-interactions -->
           <span
             dir="ltr"
             on:click={() =>
