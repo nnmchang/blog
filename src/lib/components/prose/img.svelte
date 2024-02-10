@@ -1,6 +1,4 @@
 <script lang="ts">
-  /* @see {@link https://github.com/sveltejs/kit/issues/241#issuecomment-1363621896} */
-
   const setsets = import.meta.glob<string>(['/src/static/**/*.{jpg,jpeg,png,webp,avif}', '!/src/static/assets'], {
     query: {
       format: 'avif',
