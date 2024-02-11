@@ -17,7 +17,6 @@
   export let loading: 'eager' | 'lazy' = 'lazy'
   export let decoding: 'async' | 'sync' | 'auto' = 'async'
   let srcset: string | undefined = setsets[`/src/static${src}`]
-  console.log(srcset)
 </script>
 
 {#if srcset}
