@@ -54,16 +54,7 @@ export const theme: ThemeConfig = [
 export const head: HeadConfig = {}
 
 export const header: HeaderConfig = {
-  nav: [
-    {
-      text: 'Get Started',
-      link: '/hello-world'
-    },
-    {
-      text: 'Elements',
-      link: '/hello-world/elements'
-    }
-  ]
+  nav: []
 }
 
 export const footer: FooterConfig = {
@@ -80,11 +71,11 @@ export const footer: FooterConfig = {
 }
 
 export const date: DateConfig = {
-  locales: 'en-US',
+  locales: 'ja-JP',
   options: {
-    year: '2-digit',
+    year: 'numeric',
     weekday: 'long',
-    month: 'short',
+    month: 'numeric',
     day: 'numeric'
   }
 }
